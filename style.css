@@ -47,22 +47,40 @@ table {
 	border-spacing: 0;
 }
 
-.intro{
+body{
 	background-color: black;
+}
+
+.nav-link{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+	position: fixed;
+    width: 100%;
+}
+
+.nav-link:hover{
+	color: rgb(255, 255, 255);
+	transition: 300ms;
+}
+
+header{
+	height: 1rem;
+	padding-bottom: 35px;
+}
+
+main{
+	padding-top: 15px;
+}
+
+.intro{
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 	padding-top: 3%;
 	padding-left: 10%;
 	padding-right: 10%;
-}
-
-
-main{
-	background-color: black;
-}
-
-.intro{
 	display: flow-root;
 }
 
@@ -152,5 +170,4 @@ footer{
 .footer-img{
 	align-content: center;
 	width: 30px;
-	height: 30px;
 }
