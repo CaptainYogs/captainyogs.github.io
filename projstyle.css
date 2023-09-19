@@ -49,15 +49,12 @@ table {
 
 body{
 	background-color: black;
+	font-family: 'Inclusive Sans', sans-serif;
 }
 
 header{
 	height: 1rem;
 	padding-bottom: 40px;
-}
-
-.navbar{
-	font-family: 'Inclusive Sans', sans-serif;
 }
 
 .nav-link {
@@ -122,7 +119,7 @@ footer{
 	border: 1px solid rgb(255, 255, 255);
 	background-color: rgb(15, 15, 15);
 	color: rgb(255, 255, 255);
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inclusive Sans', sans-serif;
 	width: 350px;
 	height: 360px;
 }
@@ -176,7 +173,7 @@ footer{
 .footer-text{
 	text-align: center;
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inclusive Sans', sans-serif;
 	padding: 3px;
 }
 

@@ -49,9 +49,6 @@ table {
 
 body{
 	background-color: black;
-}
-
-.navbar{
 	font-family: 'Inclusive Sans', sans-serif;
 }
 
@@ -100,7 +97,7 @@ body{
 
 .contact{
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inclusive Sans', sans-serif;
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
@@ -146,7 +143,7 @@ footer{
 .footer-text{
 	text-align: center;
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inclusive Sans', sans-serif;
 	padding: 3px;
 }
 

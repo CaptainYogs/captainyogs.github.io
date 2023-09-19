@@ -49,10 +49,10 @@ table {
 
 body{
 	background-color: black;	
+	font-family: 'Inclusive Sans', sans-serif;
 }
 
 .navbar{
-	font-family: 'Inclusive Sans', sans-serif;
 	position: fixed;
     width: 100%;
 }
@@ -115,7 +115,6 @@ main{
 	padding-left: 10%;
 	padding-right: 10%;
 	display: flow-root;
-	font-family: 'Poppins', sans-serif;
 }
 
 #dpgif{
@@ -144,13 +143,13 @@ footer{
 	border: 1px solid rgb(255, 255, 255);
 	background-color: rgb(15, 15, 15);
 	color: rgb(255, 255, 255);
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inclusive Sans', sans-serif;
 	width: 350px;
 	height: 360px;
 }
 
 @media (hover: hover) and (pointer: fine) {
-	.card:hover { 
+	.card:hover{ 
 		border: 0px solid rgb(255, 255, 255);
 		width: 390px;
 		height: 390px;
@@ -163,6 +162,7 @@ footer{
 
 .linkk{
 	text-decoration: none;
+	color: white;
 }
 
 .linkk:hover{
@@ -184,7 +184,7 @@ footer{
 .footer-text{
 	text-align: center;
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inclusive Sans', sans-serif;
 	padding: 3px;
 }
 
