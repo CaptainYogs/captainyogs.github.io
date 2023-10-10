@@ -1,0 +1,42 @@
+body{
+    background-color: #000000;
+}
+
+.nt{
+    color: rgb(255, 255, 255);
+}
+
+.nb{
+    width: 100%;
+    padding: 0px;
+    background: rgba(255, 255, 255, 0.569);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.nt:hover{
+    color: white;
+}
+
+.ntext{
+    color: rgb(255, 255, 255);
+}
+
+.ntext:visited{
+    color: rgb(255, 255, 255);
+}
+
+.ntext:hover{
+    
+    color: #000000;
+    background: rgba(255, 255, 255, 0.65);
+}
+
+main{
+    padding-top: 8vh;
+}
+
+.about{
+    color: white;
+}
