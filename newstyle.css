@@ -5,7 +5,6 @@ body{
 
 .navb{
     background-color: #456980;
-    width: 120px;
     height: 100%;
     float: left;
     list-style-type: none;
@@ -43,14 +42,18 @@ body{
     background-color: #1d2d44;
  }
 
-.navo{
-    left: 0;
-}
-
-
-
 .navicon{
     height: 20px;
     margin-bottom: 0.5vh;
     margin-right: 1vh;
+}
+
+.CollapseBtn{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
