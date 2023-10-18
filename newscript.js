@@ -1,13 +1,17 @@
 console.log("JS is working!");
-colbtn = document.getElementById("ColBtn");
+const colbtn = document.getElementById("ColBtn");
+let collapse = false;
 colbtn.addEventListener("click", function () {
-    console.log("CollapseBtn clicked!");
-    if (CollapseBtn.innerHTML == "Collapse") {
-        CollapseBtn.innerHTML = "Expand";
-        document.getElementById("CollapseDiv").style.display = "none";
-    }
-    else {
-        CollapseBtn.innerHTML = "Collapse";
-        document.getElementById("CollapseDiv").style.display = "block";
+    const navname = document.querySelectorAll(".navname");
+    if (!collapse) {
+        collapse = true;
+        for (let i = 0; i < navname.length; i++) {
+            navname[i].style.display = "none";
+        }
+    } else {
+        collapse = false;
+        for (let i = 0; i < navname.length; i++) {
+            navname[i].style.display = "inline-block";
+        }
     }
 });

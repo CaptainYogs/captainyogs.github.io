@@ -7,48 +7,40 @@ body{
     background-color: #456980;
     height: 100%;
     float: left;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
- }
+} 
 
-.navb li{
-    display: block;
- }
-
-.navb ul{
-    margin: 0;
-    padding: 0;
+.navitem{
+    margin-bottom: 2vh;
 }
 
- .navb a:not(.act){
+ .navb a{
     display: block;
     color: white;
-    text-align: center;
     padding: 16px 16px;
     text-decoration: none;
+}
+
+.navb i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0.5vh;
+}
+
+.navb p{
+    margin-bottom: 0;
+    display: none;
+    transition: 0.3s ease-in;
 }
 
 .act{
-    display: block;
-    color: white;
     background-color: #1f94b1;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
 }
 
 .navb a:hover:not(.act) {
     background-color: #1d2d44;
  }
 
-.navicon{
-    height: 20px;
-    margin-bottom: 0.5vh;
-    margin-right: 1vh;
-}
-
-.CollapseBtn{
+#ColBtn{
     background: none;
 	color: inherit;
 	border: none;
