@@ -1,19 +1,21 @@
 body{
-    background-color: #1d2d44;
+    background-color: #324f67;
     height: 100vh;
 }
 
 .navb{
+    position: fixed;
     background-color: #456980;
     height: 100%;
     float: left;
+    z-index: 9999;
 } 
 
 .navitem{
     margin-bottom: 2vh;
 }
 
- .navb a{
+.navl{
     display: block;
     color: white;
     padding: 16px 16px;
@@ -29,7 +31,6 @@ body{
 .navb p{
     margin-bottom: 0;
     display: none;
-    transition: 0.3s ease-in;
 }
 
 .act{
@@ -48,4 +49,49 @@ body{
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+
+.custom-shape-divider-top-1697695962 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1697695962 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 217px;
+}
+
+.custom-shape-divider-top-1697695962 .shape-fill {
+    fill: #9fb8c0;
+}
+
+.projects{
+    margin-left: 20vh;
+}
+
+.intro{
+    color: white;
+    padding-top: 25vh;
+    padding-left: 20vh;
+    padding-right: 15vh;
+    padding-bottom: 20vh;
+}
+
+#dpgif{
+    background-color: #9fb8c0;
+    height: 50vh;
+    float: right;
+    border-radius: 100%;
+}
+
+.card{
+    height: 80%;
+    width: 80%;
 }
