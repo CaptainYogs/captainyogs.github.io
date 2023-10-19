@@ -17,12 +17,12 @@
   </div>
   <div class="navb">
     <div class="navitem"><a class="navl"><button id="ColBtn"><i class="fa-solid fa-bars"></i><p class="navname ps-3">Yogesh</p></button></a></div>
-    <div class="navitem"><a href="#" class="navl act"><i class="fa-solid fa-house"></i><p class="navname ps-3">Home</p></a></div>
-    <div class="navitem"><a href="#" class="navl"><i class="fa-solid fa-list-check" style="color: #ffffff;"></i><p class="navname ps-3">Projects</p></a></div>
+    <div class="navitem"><a href="#body" class="navl act"><i class="fa-solid fa-house"></i><p class="navname ps-3">Home</p></a></div>
+    <div class="navitem"><a href="#proj" class="navl"><i class="fa-solid fa-list-check" style="color: #ffffff;"></i><p class="navname ps-3">Projects</p></a></div>
     <div class="navitem"><a href="#" class="navl"><i class="fa-solid fa-phone" style="color: #ffffff;"></i><p class="navname ps-3">Contact</p></a></div>
-    <div class="navitem"><a href="#" class="navl"><i class="fa-regular fa-id-badge" style="color: #ffffff;"></i><p class="navname ps-3">Resume</p></a></div>
+    <div class="navitem"><a href="" class="navl"><i class="fa-regular fa-id-badge" style="color: #ffffff;"></i><p class="navname ps-3">Resume</p></a></div>
   </div> 
-  <div class="intro">
+  <div class="intro" id="body">
       <img src="assets/images/dp.png" id="dpgif" alt="Profile Photo">
       <h1>Hello there!!</h1>
       <br>
@@ -30,24 +30,67 @@
       <p>In my spare time, I enjoy working on personal projects and contributing to open source software. I am looking for an internship or entry-level position in software development where I can apply my skills and learn from experienced professionals.</p>
       <p>I am a hard worker and I am always willing to go the extra mile. I am also a team player and I am always willing to help others. I am confident that I have the skills and experience to be successful in a career in software development. I am eager to start my career and I am confident that I can make a positive contribution to your team.</p>
   </div>
-  <div class="projects">
+  <div class="projects" id="proj">
+    <h1 class="heading">Projects!!</h1>
     <div class="row row-cols-md-1 row-cols-lg-3 justify-content-evenly">
-        <div class="col col-12 col-md-3">
+        <div class="col col-12 col-md-3 proj-col">
             <div class="card projects-card">
-                <img src="assets/images/metric.jpg" class="proj-pic">
+                <img src="assets/images/metric.jpg" class="proj-pic card-img">
+                <div class="card-img-overlay overlay">
+                  <div class="text">
+                    <h5 class="card-title">Metric Magic</h5>
+                    <p class="card-text">Smart and Simple Online Unit Converter!! Supports various units and easily copy the converted value to your clip-board.</p>
+                    <a class="btn btn-light" href="https://captainyogs.me/Metric-Magic/" role="button" target="_blank">Learn More<i class="fa-solid fa-arrow-up-right-from-square ps-2" style="color: #000000;"></i></a>
+                  </div>
+                </div>
             </div>
         </div>
-        <div class="col col-12 col-md-3">
+        <div class="col col-12 col-md-3 proj-col">
           <div class="card projects-card">
-              <img src="assets/images/Evarsity SS.jpg" class="proj-pic">
+              <img src="assets/images/Evarsity SS.jpg" class="proj-pic card-img">
+              <div class="card-img-overlay overlay">
+                <div class="text">
+                  <h5 class="card-title">Attendance Manager</h5>
+                  <p class="card-text">Simple Browser Extension that helps you to manage your attendance in Evarsity.</p>
+                  <a class="btn btn-light" href="https://github.com/CaptainYogs/Evarsity-Attendance-Extension" role="button" target="_blank">Learn More<i class="fa-solid fa-arrow-up-right-from-square ps-2" style="color: #000000;"></i></a>
+                </div>
+              </div>
           </div>
         </div>
-        <div class="col col-12 col-md-3">
+        <div class="col col-12 col-md-3 proj-col">
           <div class="card projects-card">
-              <img src="assets/images/Evarsity SS.jpg" class="proj-pic">
+              <img src="assets/images/calc.jpg" class="proj-pic card-img">
+              <div class="card-img-overlay overlay">
+                <div class="text">
+                  <h5 class="card-title">Calculator</h5>
+                  <p class="card-text">A Simple Calculator. Made with Python using Tkinter.</p>
+                  <a class="btn btn-light" href="https://github.com/CaptainYogs/Simple-Calculator" role="button" target="_blank">Learn More<i class="fa-solid fa-arrow-up-right-from-square ps-2" style="color: #000000;"></i></a>
+                </div>
+              </div>
           </div>
         </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <i class="fa-brands fa-python code" style="color: #ffffff;"></i>
+      </div>
+      <div class="col">
+        <img src="assets/images/c.svg" class="code">
+      </div>
+      <div class="col">
+        <img src="assets/images/ps.svg" class="code">
+      </div>
+      <div class="col">
+        <i class="fa-brands fa-html5 code" style="color: #ffffff;"></i>
+      </div>
+      <div class="col">
+        <i class="fa-brands fa-css3-alt fa-2xl code" style="color: #ffffff;"></i>
+      </div>
+      <div class="col">
+        <i class="fa-brands fa-square-js code" style="color: #ffffff;"></i>
+      </div>
+    </div>
+
 </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <script src="newscript.js"></script>

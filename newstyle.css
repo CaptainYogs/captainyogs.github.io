@@ -1,6 +1,12 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #324f67;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 
 .navb{
@@ -12,7 +18,7 @@ body{
 } 
 
 .navitem{
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 
 .navl{
@@ -64,7 +70,7 @@ body{
 .custom-shape-divider-top-1697695962 svg {
     position: relative;
     display: block;
-    width: calc(134% + 1.3px);
+    width: calc(100% + 1.3px);
     height: 217px;
 }
 
@@ -92,6 +98,61 @@ body{
 }
 
 .card{
-    height: 80%;
+    height: 100%;
     width: 80%;
+}
+
+.proj-pic{
+    height: 100%;
+}
+
+.projects-card{
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay{
+    position: absolute;     
+    opacity:0;
+    bottom:0;
+    right:0;
+    top:80%;
+    height:0;
+  	width:100%;
+    overflow: hidden;
+    transition: .5s ease;
+    background-color: rgba(50, 79, 103, 0.7);
+}
+
+.projects-card img{
+    transition: transform .2s ease-in;
+    display:block;
+    width: 100%;
+    height: auto;
+    opacity: 1; 
+}
+
+.projects-card:hover img{
+    transform: scale(1.1);
+}
+
+.projects-card:hover .overlay{
+  top: 0;
+  height: 100%;
+  opacity:1;
+}
+
+.text {
+    color: white;
+}
+
+.heading{
+    color: white;
+    margin-bottom: 5vh;
+}
+
+.code{
+    height: 10vh;
 }
