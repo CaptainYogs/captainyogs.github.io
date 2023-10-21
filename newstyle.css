@@ -83,7 +83,7 @@ body{
 
 .projects{
     margin-top: 6vh;
-    margin-left: 15vh;
+    padding-left: 15vh;
     font-size: 2.8vh;
 }
 
@@ -129,6 +129,10 @@ body{
     padding: 0;
 }
 
+.proj-content{
+    width: 99%;
+}
+
 .overlay{
     position: absolute;     
     opacity:0;
@@ -150,7 +154,7 @@ body{
     opacity: 1; 
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 400px) {
     .card-text{
         font-size: 12px;
     }
@@ -200,4 +204,113 @@ body{
 
 .code-col a{
     text-decoration: none;
+}
+
+.contact-wrapper {
+    height: fit-content;
+    width: 99%;
+    padding-left: 15vh;
+    margin-bottom: 5%;
+    justify-content: center;
+    color: white;
+}
+
+.contact {
+    width: 100%;
+}
+
+.name {
+    width: 100%;
+}
+
+.alert {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 9px;
+    width: fit-content;
+    margin: 0 0 10px;
+    line-height: 1.4;
+}
+
+.alert-icon {
+    padding: 0 9px 0 0;
+}
+
+.alert-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.req {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.name-input-wrapper {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+
+.name-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.first {
+    margin-right: 10px;
+}
+
+.field {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 11px;
+    margin-bottom: 10px;
+}
+
+.field:not([style*="background-color: white"]):hover {
+    opacity: 0.8;
+    transition: 0.2s opacity linear;
+}
+
+.msg {
+    height: 100px;
+}
+
+@media (max-width: 300.9px) {
+    .contact-wrapper {
+        padding: 5% 0;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .form-wrapper {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1120px) {
+    .contact {
+        width: 90%;
+    }
+}
+
+.info-link{
+    margin: 15% 5%;
+}
+
+.info{
+    padding-top: 10vh;
 }
