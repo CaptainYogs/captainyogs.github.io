@@ -154,11 +154,21 @@ body{
     opacity: 1; 
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
     .card-text{
         font-size: 12px;
     }
     .card-title{
+        font-weight: normal;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .card-text{
+        font-size: 10px;
+    }
+    .card-title{
+        font-size: 10px;
         font-weight: normal;
     }
 }
