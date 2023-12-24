@@ -92,13 +92,13 @@ body{
     padding-top: 25vh;
     padding-left: 15vh;
     padding-right: 1vh;
-    padding-bottom: 20vh;
-    justify-content: center;
     font-size: 3.1vh;
+    
 }
 
 .intro h1{
     font-weight: bolder;
+    
 }
 
 #dpgif{
@@ -108,6 +108,38 @@ body{
     border-radius: 100%;
     align-self: center;
 }
+
+#down{
+    height: 80px;
+    margin-top: 10vh;
+}
+
+.down{
+    background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.down-div{
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  img.jumping {
+    animation: bounce 1s infinite;
+  }
 
 .card{
     height: 100%;
