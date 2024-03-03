@@ -249,104 +249,72 @@ body{
 }
 
 .contact-wrapper {
-    height: fit-content;
-    width: 99%;
-    padding-left: 15vh;
-    margin-bottom: 5%;
+    color: white;  
+    width: 100%;
+    display: flex;
     justify-content: center;
-    color: white;
 }
-
+  
 .contact {
-    width: 100%;
+    margin: 0px 15%;
 }
-
-.name {
-    width: 100%;
-}
-
-.alert {
+  
+  .alert{
     display: none;
-    align-items: center;
-    justify-content: center;
-    padding: 6px 9px;
-    width: fit-content;
-    margin: 0 0 10px;
-    line-height: 1.4;
-}
-
-.alert-icon {
+    width: max-content;
+  }
+  
+  .field-alert-col{
+    display: flex;
+  }
+  
+  .field-alert-div{
+    margin-right: 1%;
+  }
+  
+  .alert-icon {
     padding: 0 9px 0 0;
-}
-
-.alert-text {
+  }
+  
+  .alert-text {
     font-size: 14px;
     font-weight: 500;
-}
-
-.title {
-    font-size: 18px;
-}
-
-.req {
+    margin: 0;
+  }
+  
+  .req {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.name-input-wrapper {
-    display: flex;
-    justify-content: left;
-    width: 100%;
-}
-
-.name-input {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.first {
-    margin-right: 10px;
-}
-
-.field {
-    width: 100%;
-    height: 45px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .field {
     font-size: 18px;
     border: none;
     background-color: white;
-    color: black;
-    padding: 11px;
-    margin-bottom: 10px;
-}
-
-.field:not([style*="background-color: white"]):hover {
-    opacity: 0.8;
-    transition: 0.2s opacity linear;
-}
-
-.msg {
-    height: 100px;
-}
-
-@media (max-width: 300.9px) {
-    .contact-wrapper {
-        padding: 5% 0;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1%;
+  }
+  
+  @media all and (max-width: 768px) {
+    .alert-text {
+      font-size: 12px;
+      font-weight: 500;
+      margin: 0;
     }
-
-    .contact {
-        width: 100%;
+    .alert{
+      width: fit-content;
+      padding: 2%;
     }
-
-    .form-wrapper {
-        padding: 0;
+    .contact{
+      padding: 2%;
+      margin: 0px 3%;
     }
-}
-
-@media (max-width: 1120px) {
-    .contact {
-        width: 90%;
-    }
+  }
+  
+.footer-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .info-link{
@@ -356,5 +324,5 @@ body{
 }
 
 .info{
-    padding-top: 10vh;
+    padding: 10vh;
 }
