@@ -1,15 +1,21 @@
 export default function Home() {
     return (
-        <div className='px-8 pt-8 text-stone-50 h-screen'>
-            <h1 className='pb-8 text-5xl font-semibold'>Hello there!!</h1>
-            <hr></hr>
-            <div className='md:text-base text-sm grid grid-cols-2 items-start justify-items-center text-stone-50 mt-6'>
+        <div className='px-16 text-stone-50'>
+            <h1 className='py-8 text-5xl font-semibold font-[Montserrat]'>Hello there!!</h1>
+            <div className='grid grid-cols-2 items-center text-stone-50 pt-4'>
                 <div>
-                    <p>I am a third-year Computer Science student at SRMIST with a passion for coding. I am proficient in Python, C, C++, HTML ,and CSS, and I am always eager to learn new languages and technologies. I am also interested in web development and automation. I am looking for an internship or entry-level position in software development where I can apply my skills and learn from experienced professionals.I am eager to start my career and I am confident that I can make a positive contribution to your team.
+                    <p className='font-[Montserrat] text-2xl pb-6'>Fourth-year Computer Science student with a passion for coding. I am looking for an internship or entry-level position in software development.
                     </p>
+                    <div className='flex gap-x-12 pt-6'>
+                        <i className='fa-brands fa-react fa-6x text-white hover:scale-110'></i>
+                        <i className='fa-brands fa-node fa-6x text-white hover:scale-110'></i>
+                        <i className='fa-brands fa-python fa-6x text-white hover:scale-110'></i>
+                        <img src='https://www.svgrepo.com/show/330233/cplusplus.svg' className='w-24 invert hover:scale-110' />
+                        <img src='/mongo.svg' className='w-24 hover:scale-110' />
+                    </div>
                 </div>
-                <div className='flex items-center justify-center'>
-                    <img className='w-2/3 rounded-full hover:outline hover:outline-2 hover:outline-cyan-300' src='/dp2.jpg' alt='Profile Picture' />
+                <div className='flex justify-end'>
+                    <img className='w-4/5 rounded-full hover:outline hover:outline-2 hover:outline-cyan-300' src='/dp2.jpg' alt='Profile Picture' />
                 </div>
             </div>
         </div>

@@ -4,9 +4,10 @@ import Navbar from './Navbar.jsx';
 
 export default function RootLayout() {
   return (
-    <div className="flex lg:h-screen h-max">
+    <div>
       <Navbar />
-      <div className='w-11/12 bg-[#232323]'>
+      {/* <hr className='mx-4'></hr> */}
+      <div className='font-[Montserrat]'>
         <Outlet />
       </div>
     </div>
