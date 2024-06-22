@@ -7,8 +7,8 @@ export default function Home() {
                     <p className='font-[Montserrat] text-xl md:text-2xl md:pt-6 lg:pt-0 pb-6'>Fourth-year Computer Science student with a passion for coding. I am looking for an internship or entry-level position in software development.
                     </p>
                     <div className='gap-x-12 pt-6 hidden xl:flex'>
-                        <i className='fa-brands fa-react fa-6x text-white transition-all duration-300 hover:scale-110'></i>
-                        <i className='fa-brands fa-node fa-6x text-white transition-all duration-300 hover:scale-110'></i>
+                        <i className='fa-brands fa-react fa-6x text-white transition-all duration-300 hover:scale-110 hover:text-[#61dbfb]'></i>
+                        <i className='fa-brands fa-node fa-6x text-white transition-all duration-300 hover:scale-110 hover:text-[#3c873a]'></i>
                         <i className='fa-brands fa-python fa-6x text-white transition-all duration-300 hover:scale-110'></i>
                         <img src='https://www.svgrepo.com/show/330233/cplusplus.svg' className='w-24 invert transition-all duration-300 hover:scale-110' />
                         <img src='/mongo.svg' className='w-24 transition-all duration-300 hover:scale-110' />

@@ -1,7 +1,7 @@
 import ProjectItem from '../components/ProjectItem.jsx';
 const projectList = [
     {
-        imgSrc: 'munchM.png',
+        imgSrc: 'munchM.jpg',
         title: 'Munch Mysteries',
         description: 'Free to Use Website to find the best food spots in chennai, some unknown some Mysterious.',
         link: 'https://munch-mysteries.onrender.com/'
